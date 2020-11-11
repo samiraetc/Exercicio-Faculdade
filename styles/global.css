@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f1f3f4;
+}
+
+ul, li  {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #F8526E;
+    padding: 15px 0px 0px 20px;
+}
+
+.principal {
+    padding: 15px 0px 0px 190px;
+}
+.container {
+    width: 900px;
+    height: 50%;
+    background-color:white;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.menu {
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+.menu a  {
+    text-decoration: none;
+    color: #F8526E;
+    padding: 25px;
+}
+
+
+.dados__pessoais {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.dados__pessoais .dados li{
+    font-size: 25px;
+    font-weight: 200;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.dados__pessoais .dados #nome {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.dados__pessoais .redes__sociais {
+    justify-self: center;
+}
+
+ .photo__cv {
+    margin-left: 40px;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.container .info__pessoal  {
+    padding: 0px 0px 20px 20px;
+}
+
+.container .info__pessoal  li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px 0px 0px 35px;
+    align-items: center;
+}
+
+.container .info_profissionais  {
+    padding: 0px 0px 20px 20px;
+}
+
+.container .info_profissionais ul {
+    padding: 15px;
+}
+
+.container .info_profissionais  li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px 0px 0px 20px;
+    align-items: center;
+}
+
+.container .info_profissionais a {
+    text-decoration: none;
+    color: #57B3FF;
+}
+
+.container .info_profissionais  #cargo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container .info_profissionais  #empresa {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.container .info_profissionais  #tempo {
+    font-size: 15px;
+}
+
+.container .escolaridade  {
+    padding: 0px 0px 20px 20px;
+}
+
+.container .escolaridade ul {
+    padding: 15px;
+}
+
+.container .escolaridade  li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px 0px 0px 20px;
+    align-items: center;
+}
+
+.container .escolaridade a {
+    text-decoration: none;
+    color: #57B3FF;
+}
+
+.container .escolaridade  #faculdade {
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.container .escolaridade  #curso {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.container .escolaridade  #tempo {
+    font-size: 15px;
+}
