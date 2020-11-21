@@ -66,6 +66,10 @@ h2 {
     justify-self: center;
 }
 
+.dados__pessoais .redes__sociais  a{
+    list-style-type: none;
+}
+
  .photo__cv {
     margin-left: 40px;
     border-radius: 50%;
